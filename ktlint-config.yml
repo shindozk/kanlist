@@ -1,0 +1,6 @@
+// ktlint configuration
+kotlindoc {
+    // Exclude generated files
+    exclude("**/build/**")
+    exclude("**/generated/**")
+}

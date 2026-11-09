@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material You / Kanlist Colors -->
+    
+    <!-- Light Theme -->
+    <color name="background_light">#F6F1EE</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="foreground_light">#1E1B19</color>
+    <color name="muted_foreground_light">#8E8782</color>
+    <color name="border_light">#EEE6E1</color>
+    <color name="primary_light">#F07C1F</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="primary_container_light">#FFDCC4</color>
+    <color name="on_primary_container_light">#3A2214</color>
+    <color name="secondary_light">#8A5A2B</color>
+    <color name="on_secondary_light">#FFFFFF</color>
+    <color name="secondary_container_light">#F3E6D8</color>
+    <color name="on_secondary_container_light">#3A2214</color>
+    <color name="tertiary_light">#C2449B</color>
+    <color name="on_tertiary_light">#FFFFFF</color>
+    <color name="tertiary_container_light">#FBD5EE</color>
+    <color name="on_tertiary_container_light">#3A141E</color>
+    <color name="error_light">#D9534F</color>
+    <color name="on_error_light">#FFFFFF</color>
+    <color name="error_container_light">#FFD9D2</color>
+    <color name="on_error_container_light">#3A141E</color>
+    <color name="brown_light">#5C2A0D</color>
+    <color name="hero_light">#FFD6BA</color>
+    <color name="hero_foreground_light">#3A2214</color>
+    <color name="ink_light">#2A2624</color>
+
+    <!-- Dark Theme (Warm) -->
+    <color name="background_dark">#151210</color>
+    <color name="card_dark">#211C19</color>
+    <color name="foreground_dark">#F4ECE6</color>
+    <color name="muted_foreground_dark">#9E948D</color>
+    <color name="border_dark">#2E2723</color>
+    <color name="primary_dark">#FF8B2E</color>
+    <color name="on_primary_dark">#000000</color>
+    <color name="primary_container_dark">#5C2A0D</color>
+    <color name="on_primary_container_dark">#FFDCC4</color>
+    <color name="secondary_dark">#D4A574</color>
+    <color name="on_secondary_dark">#1E1B19</color>
+    <color name="secondary_container_dark">#3A2214</color>
+    <color name="on_secondary_container_dark">#F3E6D8</color>
+    <color name="tertiary_dark">#C2449B</color>
+    <color name="on_tertiary_dark">#000000</color>
+    <color name="tertiary_container_dark">#3A141E</color>
+    <color name="on_tertiary_container_dark">#FBD5EE</color>
+    <color name="error_dark">#FFB4AB</color>
+    <color name="on_error_dark">#690005</color>
+    <color name="error_container_dark">#93000A</color>
+    <color name="on_error_container_dark">#FFDAD6</color>
+    <color name="brown_dark">#FF8B2E</color>
+    <color name="hero_dark">#3A251A</color>
+    <color name="hero_foreground_dark">#FFE3CF</color>
+    <color name="ink_dark">#F4ECE6</color>
+
+    <!-- Media Type Pastel Colors - Light -->
+    <color name="anime_bg_light">#FFDCC4</color>
+    <color name="anime_icon_light">#E8741A</color>
+    <color name="movie_bg_light">#FDE3A7</color>
+    <color name="movie_icon_light">#B7791F</color>
+    <color name="ova_bg_light">#FFD9D2</color>
+    <color name="ova_icon_light">#D9534F</color>
+    <color name="donghua_bg_light">#FBD5EE</color>
+    <color name="donghua_icon_light">#C2449B</color>
+    <color name="manga_bg_light">#E3EFCB</color>
+    <color name="manga_icon_light">#5E8B23</color>
+    <color name="manhwa_bg_light">#D7E9F7</color>
+    <color name="manhwa_icon_light">#2F7BBF</color>
+    <color name="manhua_bg_light">#E6DEFA</color>
+    <color name="manhua_icon_light">#6C4FD0</color>
+    <color name="novel_bg_light">#F3E6D8</color>
+    <color name="novel_icon_light">#8A5A2B</color>
+    <color name="one_shot_bg_light">#DDF1EC</color>
+    <color name="one_shot_icon_light">#2C8C78</color>
+    <color name="doujin_bg_light">#F7DDE4</color>
+    <color name="doujin_icon_light">#B24668</color>
+
+    <!-- Media Type Pastel Colors - Dark (18% opacity) -->
+    <color name="anime_bg_dark">#2EE8741A</color>
+    <color name="anime_icon_dark">#E8741A</color>
+    <color name="movie_bg_dark">#2EB7791F</color>
+    <color name="movie_icon_dark">#B7791F</color>
+    <color name="ova_bg_dark">#2ED9534F</color>
+    <color name="ova_icon_dark">#D9534F</color>
+    <color name="donghua_bg_dark">#2EC2449B</color>
+    <color name="donghua_icon_dark">#C2449B</color>
+    <color name="manga_bg_dark">#2E5E8B23</color>
+    <color name="manga_icon_dark">#5E8B23</color>
+    <color name="manhwa_bg_dark">#2E2F7BBF</color>
+    <color name="manhwa_icon_dark">#2F7BBF</color>
+    <color name="manhua_bg_dark">#2E6C4FD0</color>
+    <color name="manhua_icon_dark">#6C4FD0</color>
+    <color name="novel_bg_dark">#2E8A5A2B</color>
+    <color name="novel_icon_dark">#8A5A2B</color>
+    <color name="one_shot_bg_dark">#2E2C8C78</color>
+    <color name="one_shot_icon_dark">#2C8C78</color>
+    <color name="doujin_bg_dark">#2EB24668</color>
+    <color name="doujin_icon_dark">#B24668</color>
+</resources>

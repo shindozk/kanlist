@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Kanlist</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Bem-vindo ao Kanlist!</string>
+    <string name="onboarding_subtitle">Seu diário de animes e mangás. Organize o que assiste e lê, sem conta e offline.</string>
+    <string name="onboarding_name_prompt">Como devemos te chamar?</string>
+    <string name="onboarding_name_hint">Seu nome ou apelido</string>
+    <string name="onboarding_start">Começar</string>
+    <string name="onboarding_no_account">Sem cadastro, sem login</string>
+    <string name="onboarding_offline">Funciona offline</string>
+    <string name="onboarding_privacy">Seus dados ficam no seu celular</string>
+    <string name="onboarding_multi_source">Múltiplas fontes: AniList, MangaDex, Kitsu, MAL</string>
+    
+    <!-- Home -->
+    <string name="home_greeting_morning">Bom dia, %s</string>
+    <string name="home_greeting_afternoon">Boa tarde, %s</string>
+    <string name="home_greeting_evening">Boa noite, %s</string>
+    <string name="home_greeting_night">Boa madrugada, %s</string>
+    <string name="home_continue_watching">Continue de onde parou</string>
+    <string name="home_daily_goal">Meta de hoje</string>
+    <string name="home_daily_goal_completed">Meta batida!</string>
+    <string name="home_streak">Sequência: %d dias</string>
+    <string name="home_todays_routine">Rotina de hoje</string>
+    <string name="home_todays_releases">Lançamentos de hoje</string>
+    <string name="home_no_releases">Nenhum lançamento novo hoje</string>
+    <string name="home_trending_anime">Em alta - Animes</string>
+    <string name="home_seasonal">Temporada atual</string>
+    <string name="home_trending_manga">Em alta - Mangás</string>
+    
+    <!-- Explore -->
+    <string name="explore_tab_watch">Assistir</string>
+    <string name="explore_tab_read">Ler</string>
+    <string name="explore_trending">Em alta</string>
+    <string name="explore_seasonal">Temporada atual</string>
+    <string name="explore_manhwa">Manhwas populares</string>
+    <string name="explore_donghua">Donghuas populares</string>
+    <string name="explore_manga">Mangás populares</string>
+    <string name="explore_manhua">Manhuas</string>
+    <string name="explore_novels">Novels &amp; Light Novels</string>
+    <string name="explore_see_all">Ver tudo</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Buscar animes, mangás...</string>
+    <string name="search_recent">Buscas recentes</string>
+    <string name="search_clear">Limpar</string>
+    <string name="search_results">%1$d resultado%2$s</string>
+    <string name="search_sources">Fontes: %s</string>
+    <string name="search_load_more">Carregar mais</string>
+    <string name="search_no_results">Nenhum resultado encontrado</string>
+    <string name="search_filter">Filtros</string>
+    <string name="search_adult_content">Conteúdo adulto</string>
+    
+    <!-- Library -->
+    <string name="library_tab_list">Minha lista</string>
+    <string name="library_tab_collections">Coleções</string>
+    <string name="library_filter_hint">Filtrar biblioteca...</string>
+    <string name="library_status_all">Todos (%d)</string>
+    <string name="library_sort">Ordenar</string>
+    <string name="library_empty">Sua biblioteca está vazia</string>
+    <string name="library_empty_subtitle">Use o botão + para adicionar obras</string>
+    <string name="library_progress">Progresso</string>
+    <string name="library_increment">Avançar</string>
+    <string name="library_remove">Remover da biblioteca</string>
+    <string name="library_reset">Zerar progresso</string>
+    <string name="library_favorite">Favoritar</string>
+    <string name="library_unfavorite">Remover dos favoritos</string>
+    <string name="library_collections_empty">Nenhuma coleção ainda</string>
+    <string name="library_create_collection">Criar coleção</string>
+    <string name="library_collection_items">%d obras</string>
+    
+    <!-- Status -->
+    <string name="status_watching">Assistindo</string>
+    <string name="status_reading">Lendo</string>
+    <string name="status_planning_watch">Quero assistir</string>
+    <string name="status_planning_read">Quero ler</string>
+    <string name="status_completed">Completo</string>
+    <string name="status_paused">Pausado</string>
+    <string name="status_dropped">Abandonado</string>
+    <string name="status_rewatching">Reassistindo</string>
+    <string name="status_rereading">Relendo</string>
+    
+    <!-- Work Detail -->
+    <string name="work_synopsis">Sinopse</string>
+    <string name="work_read_more">Ler mais</string>
+    <string name="work_translation_toggle">Ver tradução (PT)</string>
+    <string name="work_original_toggle">Ver original (EN)</string>
+    <string name="work_episodes">Episódios (%d)</string>
+    <string name="work_chapters">Capítulos (%d)</string>
+    <string name="work_chapter_languages">Idiomas</string>
+    <string name="work_info">Informações</string>
+    <string name="work_characters">Personagens (%d)</string>
+    <string name="work_staff">Equipe</string>
+    <string name="work_relations">Relacionados</string>
+    <string name="work_recommendations">Se você gostou…</string>
+    <string name="work_external_links">Onde encontrar</string>
+    <string name="work_options">Opções</string>
+    <string name="work_reset_progress">Zerar progresso</string>
+    <string name="work_remove">Remover da biblioteca</string>
+    <string name="work_next_episode">Próximo episódio em %s</string>
+    <string name="work_time_remaining">%s restantes</string>
+    <string name="work_mark_episode">Marcar ep %d</string>
+    <string name="work_mark_chapter">Marcar cap %d</string>
+    <string name="work_your_score">Sua nota</string>
+    <string name="work_favorite">Favorito</string>
+    <string name="work_collections">Coleções</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_edit_name">Editar nome</string>
+    <string name="profile_stats">Estatísticas</string>
+    <string name="profile_episodes">Episódios assistidos</string>
+    <string name="profile_chapters">Capítulos lidos</string>
+    <string name="profile_time">Tempo total</string>
+    <string name="profile_favorites">Favoritos</string>
+    <string name="profile_activity">Atividade (14 dias)</string>
+    <string name="profile_appearance">Aparência</string>
+    <string name="profile_theme">Tema</string>
+    <string name="profile_title_language">Idioma dos títulos</string>
+    <string name="profile_library">Biblioteca</string>
+    <string name="profile_daily_goal">Meta diária</string>
+    <string name="profile_chapter_languages">Idiomas dos capítulos</string>
+    <string name="profile_auto_translate">Traduzir sinopses automaticamente</string>
+    <string name="profile_haptic">Vibração ao marcar</string>
+    <string name="profile_adult_content">Mostrar conteúdo adulto</string>
+    <string name="profile_data_sources">Fontes de dados</string>
+    <string name="profile_data">Dados</string>
+    <string name="profile_export_backup">Exportar backup</string>
+    <string name="profile_import_backup">Importar backup</string>
+    <string name="profile_clear_cache">Limpar cache</string>
+    <string name="profile_clear_all">Apagar todos os dados</string>
+    <string name="profile_about">Sobre</string>
+    <string name="profile_version">Versão</string>
+    <string name="profile_open_source">Código aberto</string>
+    <string name="profile_privacy">Privacidade</string>
+    <string name="profile_licenses">Licenças</string>
+    
+    <!-- Backup -->
+    <string name="backup_exporting">Exportando backup…</string>
+    <string name="backup_importing">Importando backup…</string>
+    <string name="backup_success">Backup exportado! Copiado para a área de transferência.</string>
+    <string name="backup_import_success">Backup importado com sucesso!</string>
+    <string name="backup_error">Erro: %s</string>
+    
+    <!-- General -->
+    <string name="error_generic">Ocorreu um erro</string>
+    <string name="error_network">Sem conexão com a internet</string>
+    <string name="loading">Carregando…</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="save">Salvar</string>
+    <string name="done">Pronto</string>
+    <string name="close">Fechar</string>
+    
+    <!-- Media Types -->
+    <string name="type_anime">Anime</string>
+    <string name="type_movie">Filme</string>
+    <string name="type_ova">OVA/Especial</string>
+    <string name="type_donghua">Donghua</string>
+    <string name="type_manga">Mangá</string>
+    <string name="type_manhwa">Manhwa</string>
+    <string name="type_manhua">Manhua</string>
+    <string name="type_novel">Novel</string>
+    <string name="type_one_shot">One-shot</string>
+    <string name="type_doujin">Doujin</string>
+    
+    <!-- Media Status Airing -->
+    <string name="airing_finished">Finalizado</string>
+    <string name="airing_releasing">Em lançamento</string>
+    <string name="airing_upcoming">Em breve</string>
+    <string name="airing_hiatus">Em hiato</string>
+    <string name="airing_cancelled">Cancelado</string>
+    <string name="airing_unknown">Desconhecido</string>
+    
+    <!-- Theme -->
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="theme_system">Sistema</string>
+    
+    <!-- Title Language -->
+    <string name="title_lang_romaji">Romaji</string>
+    <string name="title_lang_english">Inglês</string>
+    <string name="title_lang_native">Nativo</string>
+    
+    <!-- Chapter Languages -->
+    <string name="chap_lang_pt_br">Português (BR)</string>
+    <string name="chap_lang_en">Inglês</string>
+    <string name="chap_lang_es">Espanhol</string>
+    <string name="chap_lang_fr">Francês</string>
+    <string name="chap_lang_jp">Japonês</string>
+    <string name="chap_lang_kr">Coreano</string>
+    <string name="chap_lang_zh">Chinês</string>
+    
+    <!-- Sort Orders -->
+    <string name="sort_recent">Atividade recente</string>
+    <string name="sort_name_az">Nome (A-Z)</string>
+    <string name="sort_name_za">Nome (Z-A)</string>
+    <string name="sort_score_high">Nota (maior)</string>
+    <string name="sort_score_low">Nota (menor)</string>
+    <string name="sort_progress_high">Progresso (maior)</string>
+    <string name="sort_progress_low">Progresso (menor)</string>
+    <string name="sort_date_added">Data de adição</string>
+    <string name="sort_date_started">Iniciado em</string>
+    <string name="sort_date_completed">Finalizado em</string>
+</resources>

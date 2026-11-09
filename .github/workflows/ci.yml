@@ -1,0 +1,102 @@
+name: CI Checks
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
+jobs:
+  lint-and-format:
+    name: Lint & Format
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+      - uses: android-actions/setup-android@v3
+        with:
+          api-level: 34
+          build-tools-version: 34.0.0
+      - run: chmod +x ./gradlew
+      - name: Run ktlint
+        run: ./gradlew ktlintCheck --no-daemon
+      - name: Run detekt
+        run: ./gradlew detekt --no-daemon
+
+  unit-tests:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+      - uses: android-actions/setup-android@v3
+        with:
+          api-level: 34
+          build-tools-version: 34.0.0
+      - run: chmod +x ./gradlew
+      - name: Run unit tests
+        run: ./gradlew testDebugUnitTest --no-daemon
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: app/build/reports/tests/
+          retention-days: 7
+
+  build-check:
+    name: Build Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+      - uses: android-actions/setup-android@v3
+        with:
+          api-level: 34
+          ndk-version: r26d
+          build-tools-version: 34.0.0
+      - run: chmod +x ./gradlew
+      - name: Build Debug
+        run: ./gradlew assembleDebug --no-daemon
+      - name: Build Release (no signing)
+        run: ./gradlew assembleRelease --no-daemon -PdisableSigning=true
+
+  dependency-check:
+    name: Dependency Updates
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+      - uses: android-actions/setup-android@v3
+        with:
+          api-level: 34
+      - run: chmod +x ./gradlew
+      - name: Check for dependency updates
+        run: ./gradlew dependencyUpdates --no-daemon -Drevision=release
+      - name: Check for Kotlin updates
+        run: ./gradlew kotlinUpgradeYarn --no-daemon || true

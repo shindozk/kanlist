@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kanlist.app-mergeDebugResources-2:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/root/.gradle/caches/transforms-4/f8fe1aac44af7199b1d85597be224b1c/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

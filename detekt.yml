@@ -1,0 +1,43 @@
+# detekt configuration
+build:
+  maxIssues: 20
+  weights:
+    # complexity
+    ComplexCondition: 2
+    ComplexInterface: 10
+    ComplexMethod: 10
+    LongMethod: 10
+    LongParameterList: 10
+    MethodOverloading: 2
+    NestedBlockDepth: 2
+    TooManyFunctions: 5
+    # exceptions
+    SwallowedException: 2
+    # style
+    ForbiddenComment: 1
+    MagicNumber: 1
+    MandatoryBracesIfStatements: 1
+    MaxLineLength: 1
+    WildcardImport: 1
+  excludes: "**/build/**, **/generated/**"
+  exclude:
+    - ".*/build/.*"
+    - ".*/generated/.*"
+
+console-reports:
+  active: true
+  exclude:
+    - "ProjectStatisticsReport"
+    - "ComplexityReport"
+    - "NotificationReport"
+    - "FindingsReport"
+    - "BuildFailureReport"
+
+output-reports:
+  active: true
+  exclude:
+    - "ProjectStatisticsReport"
+    - "ComplexityReport"
+    - "NotificationReport"
+    - "FindingsReport"
+    - "BuildFailureReport"
