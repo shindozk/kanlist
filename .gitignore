@@ -1,74 +1,21 @@
-# dependencies
-node_modules
+# Android build output
+build/
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
 
-# output
-out
-dist
-dist-electron
-release
-web-build
-*.tgz
+# Gradle (se usado no futuro)
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
 
-# code coverage
-coverage
-*.lcov
+# IDE
+.idea/
+*.iml
 
-# logs
-logs
-_.log
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
-
-# local databases
-*.db
-
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-.env*.local
-
-# caches
-.eslintcache
-.cache
-*.tsbuildinfo
-.turbo
-
-# IntelliJ based IDEs
-.idea
-
-# macOS
+# OS
 .DS_Store
 
-# Expo
-.expo/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.pem
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# generated native folders
-ios
-android
-
-# scripts (local-only provisioning)
-scripts/
-!packages/mobile/scripts/
-packages/mobile/scripts/*
-!packages/mobile/scripts/generate-ios-certs.py
+# Harness runtime
+.harness/

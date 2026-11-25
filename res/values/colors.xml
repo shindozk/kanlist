@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base (light) Material You palette derived from the Kanlist design tokens. -->
+    <color name="background">#F6F1EE</color>
+    <color name="foreground">#1E1B19</color>
+    <color name="card">#FFFFFF</color>
+    <color name="primary">#F07C1F</color>
+    <color name="primary_foreground">#FFFFFF</color>
+    <color name="secondary">#F1EAE5</color>
+    <color name="secondary_foreground">#2A2624</color>
+    <color name="muted">#F1EAE5</color>
+    <color name="muted_foreground">#8E8782</color>
+    <color name="accent">#FFE9DA</color>
+    <color name="accent_foreground">#5C2A0D</color>
+    <color name="border">#EEE6E1</color>
+    <color name="ink">#2A2624</color>
+    <color name="ink_foreground">#FFFFFF</color>
+    <color name="brown">#5C2A0D</color>
+    <color name="brown_foreground">#FFFFFF</color>
+    <color name="hero">#FFD6BA</color>
+    <color name="hero_foreground">#3A2214</color>
+    <color name="hero_muted">#7A5440</color>
+    <color name="track">#EFE6DF</color>
+    <color name="destructive">#D9483B</color>
+    <color name="success">#4E9A3A</color>
+    <color name="warning">#D98A1A</color>
+    <color name="overlay">#6B1E140E</color>
+
+    <!-- Pastel tiles (light) -->
+    <color name="tile_peach_bg">#FFDCC4</color>
+    <color name="tile_peach_fg">#E8741A</color>
+    <color name="tile_honey_bg">#FDE3A7</color>
+    <color name="tile_honey_fg">#B7791F</color>
+    <color name="tile_coral_bg">#FFD9D2</color>
+    <color name="tile_coral_fg">#D9534F</color>
+    <color name="tile_rose_bg">#FBD5EE</color>
+    <color name="tile_rose_fg">#C2449B</color>
+    <color name="tile_sage_bg">#E3EFCB</color>
+    <color name="tile_sage_fg">#5E8B23</color>
+    <color name="tile_sky_bg">#D7E9F7</color>
+    <color name="tile_sky_fg">#2F7BBF</color>
+    <color name="tile_lilac_bg">#E6DEFA</color>
+    <color name="tile_lilac_fg">#6C4FD0</color>
+    <color name="tile_sand_bg">#F3E6D8</color>
+    <color name="tile_sand_fg">#8A5A2B</color>
+    <color name="tile_mint_bg">#DDF1EC</color>
+    <color name="tile_mint_fg">#2C8C78</color>
+    <color name="tile_blush_bg">#F7DDE4</color>
+    <color name="tile_blush_fg">#B24668</color>
+</resources>
